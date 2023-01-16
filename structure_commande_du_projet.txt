@@ -1,0 +1,36 @@
+1)installation
+
+=> npm create vite => creation du projet
+
+nom du projet : eCommerce-front
+choisir Vue 
+choisir TypeScript
+
+=>npm install vue-router => configurer les routes
+=>npm i bootstrap-icons => utiliser les icons
+
+=>npm run dev => lancer le projets
+=>npm i -g json-server => creer un dossier qui va contenir la BDD
+                       => json-server db.json --watch --port=3004
+
+2)structure
+
+components : Accueil,
+
+=> Accueil : 
+=> 
+=> 
+=> 
+
+
+eCommerce-front/
+├── src/
+|   |__ components/
+|   |
+|   ├── types/               => dossier qui contient les interfaces
+|   |   └── fichier.ts
+|   |   |__ fichier.ts
+|   └── App.vue
+
+
+

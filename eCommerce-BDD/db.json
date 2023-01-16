@@ -1,0 +1,51 @@
+{
+    "article": [
+        {
+            "id": 1,
+            "nom": "produit 1 ",
+            "description": "description du produit1 ",
+            "prix": 5.5,
+            "date_creation":"16/01/2023",
+            "image": "https://via.placeholder.com/400x200.png?texte=produit1"
+        },
+        {
+            "id": 1,
+            "nom": "produit 2 ",
+            "description": "description du produit2 ",
+            "prix": 12.5,
+            "date_creation":"16/01/2023",
+            "image": "https://via.placeholder.com/400x200.png?texte=produit2"
+        },
+        {
+            "id": 1,
+            "nom": "produit 3 ",
+            "description": "description du produit3 ",
+            "prix": 10,
+            "date_creation":"16/01/2023",
+            "image": "https://via.placeholder.com/400x200.png?texte=produit3"
+        }
+    ],
+    "categorie":[
+        {
+            "id": 1,
+            "nom": "categorie 1 ",
+            "description": "description de la categorie 1 "
+        },
+        {
+            "id": 2,
+            "nom": "categorie 2 ",
+            "description": "description de la categorie 2 "
+        }
+        
+
+    ],
+    "Entrepot":[
+
+    ],
+    "users": [
+
+    ],
+    "panier": [
+
+    ]
+}

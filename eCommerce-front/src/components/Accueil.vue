@@ -1,13 +1,20 @@
 <template>
-    <h1>accueil</h1>
+    <h2>accueil</h2>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+    data(){
+        return{
 
-}
+        }
+
+    },
+    components:{
+
+    }
+
+})
 </script>
 
-<style>
-
-</style>
