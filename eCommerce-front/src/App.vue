@@ -1,16 +1,19 @@
 <template>
-  <div>
-    <h1>{{titre}}</h1>
-    
+  <div class="header">
     <Menu/>
+  </div>
+  <div class="container">
     <RouterView/>
-
+  </div>
+  <div class="footer">
+    <Footer/>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue' 
 import Menu from './components/Menu.vue'
+import Footer from './components/Footer.vue'
 import {RouterView} from 'vue-router'
 export default defineComponent({
     data(){
@@ -20,6 +23,7 @@ export default defineComponent({
     },
     components:{
       Menu,
+      Footer,
       RouterView
     }
 

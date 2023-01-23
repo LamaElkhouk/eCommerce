@@ -1,17 +1,15 @@
 <template>
-    <div>
-        <nav>
+        <nav class="menu">
+            <p class="logo">Logo</p>
             <ul>
                 <li>
                     <RouterLink :to="{name:'accueil'}">Accueil</RouterLink>
                 </li>
                 <li>
-                    <RouterLink :to="{name:'accueil'}">Autre</RouterLink>
+                    <RouterLink :to="{name:'contact'}">Contact</RouterLink>
                 </li>
             </ul>
         </nav>
-    </div>
-    
 </template>
 
 <script lang="ts">

@@ -9,7 +9,7 @@
             "image": "https://via.placeholder.com/400x200.png?texte=produit1"
         },
         {
-            "id": 1,
+            "id": 2,
             "nom": "produit 2 ",
             "description": "description du produit2 ",
             "prix": 12.5,
@@ -17,7 +17,7 @@
             "image": "https://via.placeholder.com/400x200.png?texte=produit2"
         },
         {
-            "id": 1,
+            "id": 3,
             "nom": "produit 3 ",
             "description": "description du produit3 ",
             "prix": 10,

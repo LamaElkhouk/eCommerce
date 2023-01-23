@@ -1,9 +1,13 @@
 import {createRouter, createWebHistory,RouteRecordRaw} from "vue-router"
 import Accueil from "./components/Accueil.vue"
+import Contact from "./components/Contact.vue"
+import UnArticle from "./components/UnArticle.vue"
 import NotFound from "./components/NotFound.vue"
 
 const routes:Array<RouteRecordRaw> = [
     { path : "/", name:"accueil",component:Accueil},
+    { path:"/contact",name:"contact",component:Contact},
+    { path:"/article/:id",name:"unarticle",component:UnArticle},
     { path:"/:pathMatch(.*)*", name:"NotFound",component:NotFound}
 ]
 

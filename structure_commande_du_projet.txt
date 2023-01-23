@@ -13,6 +13,8 @@ choisir TypeScript
 =>npm i -g json-server => creer un dossier qui va contenir la BDD
                        => json-server db.json --watch --port=3004
 
+=> npm install axios
+
 2)structure
 
 components : Accueil,
