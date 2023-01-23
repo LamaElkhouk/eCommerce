@@ -5,7 +5,7 @@
             <img class="image_article" v-bind:src="article.image">
             <div class="infos_article">
                 <h3>{{article.nom}}</h3>
-                <p>{{article.description}}</p>
+                <p>{{truncate(article.description)}}</p>
             </div>
             
             <div class="prix_article">
@@ -41,6 +41,15 @@ export default defineComponent({
             .catch((e:Error)=>{
                 console.log(e);
             })
+    },
+    methods:{
+        truncate(value:string){
+            console.log("val :"+value.length)
+            if (value.length > 40) {
+                value = value.substring(0, 120) + '...';
+            }
+            return value
+        }
     }
 
 })
