@@ -44,7 +44,6 @@ export default defineComponent({
     },
     methods:{
         truncate(value:string){
-            console.log("val :"+value.length)
             if (value.length > 40) {
                 value = value.substring(0, 120) + '...';
             }

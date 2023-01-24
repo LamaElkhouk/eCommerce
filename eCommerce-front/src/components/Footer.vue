@@ -12,5 +12,7 @@ export default defineComponent({
 </script>
 
 <style>
-
+p {
+        margin: 0;
+}
 </style>

@@ -1,12 +1,26 @@
 
+import axios from "axios";
 
-export class CategorieApi{
+class CategorieApi{
+    URL_BASE=`http://localhost:3004/categorie`;
 
-    getAll(){
-        
+    async getAll(){
+        try{
+            const response= await axios.get(this.URL_BASE);
+            return response;
+        }catch(e){
+            console.log(e);
+        }
     }
-    getOne(id:any){
+    async getOne(id:any){
+        try{
+            const response= await axios.get(this.URL_BASE+`/${id}`);
+            return response;
+        }catch(e){
+            console.log(e);
+        }
         
     }
 }
+export default new CategorieApi();
 

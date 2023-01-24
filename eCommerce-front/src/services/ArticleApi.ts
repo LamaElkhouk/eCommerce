@@ -17,7 +17,15 @@ class ArticleApi{
         } catch(e){
             console.log(e);
         }
-    }  
+    }
+    async getByCategorie(categorie:any){
+        try{
+            const response=await axios.get(this.URL_BASE+`?categorie=${categorie}`);
+            return response;
+        } catch(e){
+            console.log(e);
+        }
+    }
 }
 
 export default new ArticleApi();
